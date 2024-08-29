@@ -1,1 +1,69 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7EFE5;
+    color: #674188;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
+h1 {
+    color: #e92ab9;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #C8A1E0;
+    margin: 10px 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #674188;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Profile Photo */
+img {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: #E2BFD9;
+    border-radius: 8px;
+}
+
+h3 {
+    color: #674188;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #F7EFE5;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #a973cb;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #E2BFD9;
+}
