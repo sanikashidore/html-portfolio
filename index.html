@@ -13,24 +13,52 @@ HINT for TODO 6: You can use the height attribute set to 200 to make the image s
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
 
 <!-- TODO 7: Add the Contact Me and About Me page links -->
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <title>Sanika's Website</title>
- </head>
- <body>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <h1>Sanika's Portfolio</h1>
-    <h2>Hii I'm a Web Developer</h2>
+    <h2>Hi, I'm a Web Developer</h2>
     <hr/>
-    <a href="./public/my-bday-invite.html"><h3>My Birthday Invite Project</h3></a>
-    <img src="./assets/images/my-bday-invite.png" alt="birthday invite card with cake pic" height="200"/>
+
+    <!-- Profile Photo -->
+    <img src="./assets/images/my-photo.jpg" alt="Sanika's Photo" height="200"/>
+
+    <!-- Biography -->
+    <section>
+        <h3>About Me</h3>
+        <p>Hello! I’m Sanika, a passionate web developer with a love for creating beautiful websites. I enjoy working on projects that challenge me and allow me to grow my skills.</p>
+    </section>
+    
+    <!-- Skills -->
+    <section>
+        <h3>Skills</h3>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Web Design</li>
+        </ul>
+    </section>
+
+    <!-- Projects -->
+    <section>
+        <h3>Projects</h3>
+        <a href="./public/my-bday-invite.html"><h4>My Birthday Invite Project</h4></a>
+        <a href="./public/movie-ranking.html"><h4>Movie Ranking List</h4></a>
+        <a href="https://sanikashidore.github.io/cafe-doja-website/"><h4>Restaurant Website</h4></a>
+    </section>
+
+    <!-- Contact -->
+    <section>
+        <h3>Contact Me</h3>
+        <p>You can reach me at <a href="sanikashidore16@gmail.com">sanikashidore16@gmail.com</a> or connect with me on <a href="https://www.linkedin.com/in/sanika" target="_blank">LinkedIn</a>.</p>
+    </section>
+
     <hr/>
-    <a href="./public/movie-ranking.html"><h3>Movie Ranking List</h3></a>
-    <img src="./assets/images/movie-ranking.png" alt="screenshot of movie list" height="200"/>
-    <hr/>
-    <a href="./public/about.html">About me</a>
-    <a href="./public/contact.html">Contact me</a>
-    <hr/>
- </body>
- </html>
+</body>
+</html>
