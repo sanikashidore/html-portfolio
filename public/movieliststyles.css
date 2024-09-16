@@ -1,0 +1,54 @@
+body {
+    background-color: #8EACCD;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    text-align: center; /* Center-aligns titles */
+}
+
+.page-title {
+    background-color: #D2E0FB;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 20px auto; /* Adds spacing and centers */
+    width: 50%; /* Sets both titles to 60% width */
+    display: block;
+    text-align: center; /* Ensures text is centered */
+}
+
+.movie-box {
+    background-color: #FEF9D9;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 8px;
+    width: 70%; /* Reduces the width to 80% and centers */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-aligns the movie title */
+}
+
+.movie-title {
+    background-color: #DEE5D4;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center; /* Center-aligns the <h3> title inside the box */
+}
+
+.content-container {
+    display: flex;
+    justify-content: center; /* Centers content within the container */
+    align-items: center;
+}
+
+.movie-img {
+    border: 5px solid #DEE5D4;
+    border-radius: 5px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.movie-box p {
+    font-size: 18px;
+    line-height: 1.7;
+    flex: 1;
+}
