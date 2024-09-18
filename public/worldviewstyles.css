@@ -1,8 +1,11 @@
 body {
+    margin: 0;
+    padding: 0;
+    background-image: url('worldmap.jpg'); 
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Background stays fixed when scrolling */
     font-family: Arial, sans-serif;
-    background-color: #FFEAC5;
-    text-align: center;
-    padding: 20px;
 }
 
 #search-container {
